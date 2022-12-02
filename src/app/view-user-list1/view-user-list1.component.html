@@ -1,0 +1,463 @@
+<div style="background-color:rgba(189, 99, 99, 0.453);">
+<section   class="container text-center">
+  <h1 style="background-color:rgb(141, 141, 166) ;" class="text-center"><hr><b class="mt-5">USER DETAILS</b></h1>
+  <hr>
+<form class="container-fluid " style="background-color:rgb(141, 141, 166);">
+  
+    <img class="d-flex align-items-center" [src]="userdetails.image" alt="" style=" width: 20%; height: 20%;border-radius: 50%;background-color: rgb(138, 163, 157);"
+      class="rounded-circle"/>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <td class="form-control"><h6>First Name</h6></td>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-6">
+      <td class="form-control">{{userdetails.firstName}}</td>
+    </div>
+    </div>
+<br>
+    <div class="row">
+      <div class="col-md-4">
+        <td class="form-control"><h6>Last Name</h6></td>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-6">
+        <td class="form-control">{{userdetails.lastName}}</td>
+      </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <td class="form-control"><h6>Maiden Name</h6></td>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-6">
+          <td class="form-control">{{userdetails.maidenName}}</td>
+        </div>
+        </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <td class="form-control"><h6>Age</h6></td>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-6">
+        <td class="form-control">{{userdetails.age}}</td>
+      </div>
+      </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Gender</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.gender}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Email Id</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.email}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Phone</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.phone}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>User Name</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.username}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Password</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.password}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Date Of Birth</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.birthDate}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>BloodGroup</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.bloodGroup}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Height</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.height}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Weight</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.weight}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>EyeColor</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.eyeColor}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Hair Color</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.hair.color}}</td>
+  </div>
+  </div>
+<br>
+
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Hair Type</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.hair.type}}</td>
+  </div>
+  </div>
+<br>
+
+
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Domain Name</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.domain}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>IP</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.ip}}</td>
+  </div>
+  </div>
+<br>
+<div class="row m-5">
+  <div class="col border-bottom"><tr><h5>Address</h5></tr></div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Adress</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.address.address}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>City</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.address.city}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Latitude</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.address.coordinates.lat}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Longitude</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.address.coordinates.lng}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>PostalCode</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.address.postalCode}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>State</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.address.state}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>macAddress</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.macAddress}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>University</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.university}}</td>
+  </div>
+  </div>
+<br>
+<div class="row m-5">
+  <div class="col border-bottom"><tr><h5>Bank Details</h5> </tr></div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>CardExpire</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.bank.cardExpire}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>cardNumber</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.bank.cardNumber}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>cardType </h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.bank.cardType}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6> currency</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.bank.currency}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>iban</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.bank.iban}}</td>
+  </div>
+  </div>
+<br>
+<div class="row m-5">
+  <div class="col-12  border-bottom"><tr><h5 style="text-align:center ;">Company Details</h5> </tr></div>
+</div>
+<br>
+<div class="row ">
+  <div class="col-md-4">
+    <td class="form-control border-bottom"><h6>Company Address</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.address.address}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>City</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.address.city}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Latitude</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.address.coordinates.lat}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6> Longitude</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.address.coordinates.lng}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>PostalCode</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.address.postalCode}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>State</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.address.state}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Department</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.department}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6> Name</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.name}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>Title</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.company.title}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>ein</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.ein}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>ssn</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.ssn}}</td>
+  </div>
+  </div>
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <td class="form-control"><h6>User Agent</h6></td>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-6">
+    <td class="form-control">{{userdetails.userAgent}}</td>
+  </div>
+  </div>
+<br>
+  </form>
+</section>
+</div>
+
+
+
+
+
